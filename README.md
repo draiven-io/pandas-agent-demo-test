@@ -4,6 +4,8 @@ Teste técnico para desenvolvedor(a) Fullstack Python.
 
 O objetivo é desenvolver uma aplicação fullstack simples que permita ao usuário fazer perguntas sobre um conjunto de dados em CSV, utilizando um agente LLM com pandas (LangChain) no backend, e um frontend em Next.js com uma interface de chat.
 
+Use o arquivo `sales.csv` para desenvolver a solução.
+
 ---
 
 ## 🚀 O que deve ser feito
@@ -13,7 +15,7 @@ O objetivo é desenvolver uma aplicação fullstack simples que permita ao usuá
 1. O backend deve:
    - Ser feito com **FastAPI**.
    - Utilizar **LangChain** com **Pandas Agent**.
-   - Carregar um CSV (ex: `sales.csv`) com dados fictícios de vendas.
+   - Carregar o CSV (`sales.csv`) com dados fictícios de vendas.
    - Possuir uma rota `/ask` que receba uma pergunta e retorne uma resposta com base no conteúdo do CSV.
 
 2. O frontend deve:
