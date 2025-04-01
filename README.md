@@ -1,4 +1,4 @@
-# pandas-agent-demo-test
+# Pandas Agent Demo Test
 
 Teste técnico para desenvolvedor(a) Fullstack Python.
 
@@ -45,7 +45,7 @@ pip install -r requirements.txt
 uvicorn main:app --reload
 ```
 
-### 🔙 Frontend
+### 🔜 Frontend
 
 ```bash
 cd frontend
